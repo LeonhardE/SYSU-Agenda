@@ -101,7 +101,7 @@ void Meeting::setTitle(const string &t_title)
 
 bool Meeting::isParticipator(const string &t_username) const
 {
-	bool flag = false;
+    bool flag = false;
     for (int i = 0; i < m_participators.size(); i++)
     {
     	if (m_participators[i] == t_username)
